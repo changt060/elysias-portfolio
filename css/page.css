@@ -1182,6 +1182,16 @@ canvas {
   position: absolute
 }
 
+.absolute-left-right-center {
+  margin: auto;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  top: 40%; left: 0; bottom: 0; right: 0;
+  vertical-align: middle
+}  
+
 .fixed {
   position: fixed
 }
@@ -1316,8 +1326,8 @@ canvas {
 }
 
 body {
-  background: #fff;
-  color: #4a4a4a;
+  background: #1d1d1d;
+  color: #fff;
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Arial,sans-serif;
   min-width: 315px;
   overflow-x: hidden;
@@ -1427,7 +1437,7 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  letter-spacing: .06rem
+  letter-spacing: .2rem
 }
 
 a,a:active,a:visited {
@@ -1591,6 +1601,7 @@ a,a:active,a:visited {
   box-decoration-break: clone;
   background: #000;
   padding: 0 1rem .2rem
+
 }
 
 .ampstart-image-fullpage-hero>amp-img {
@@ -1603,7 +1614,7 @@ a,a:active,a:visited {
 }
 
 .ampstart-fullpage-hero-heading {
-  line-height: 3.5rem
+  line-height: 3.5rem;
 }
 
 .ampstart-fullpage-hero-cta {
@@ -1863,8 +1874,8 @@ amp-carousel .ampstart-image-with-caption {
 }
 
 .ampstart-headerbar {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   z-index: 999;
   box-shadow: 0 0 5px 2px rgba(0,0,0,.1)
 }
