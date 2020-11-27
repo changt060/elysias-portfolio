@@ -1086,6 +1086,25 @@ canvas {
   align-self: stretch
 }
 
+.social-links li {
+  font-size: 42px;
+  display: inline-block;
+  margin: 15px;
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color:black;
+  z-index: 1;
+}
+
+.social-links ul {
+    list-style: none;
+    padding-left: 0;
+}​
+
+
 .justify-start {
   -ms-flex-pack: start;
   justify-content: flex-start
@@ -1623,7 +1642,7 @@ a,a:active,a:visited {
 }
 
 .ampstart-fullpage-hero-heading {
-  line-height: 3.5rem;
+  line-height: 0rem;
 }
 
 .ampstart-fullpage-hero-cta {
