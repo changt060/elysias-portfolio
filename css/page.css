@@ -20,7 +20,7 @@ h1 {
   margin: .67em 0
 }
 
-figcaption,figure,main {
+figcaption,figure,section {
   display: block
 }
 
@@ -238,6 +238,11 @@ canvas {
 
 .text-decoration-none {
   text-decoration: none
+}
+
+.time-header {
+  font-size: .885rem;
+  line-height: 1.5rem
 }
 
 .bold {
@@ -1050,6 +1055,10 @@ canvas {
   align-items: stretch
 }
 
+.section-header {
+  font-weight: 500
+}
+
 .self-start {
   -ms-flex-item-align: start;
   align-self: flex-start
@@ -1335,7 +1344,7 @@ body {
   -webkit-font-smoothing: antialiased
 }
 
-main {
+section {
   max-width: 700px;
   margin: 0 auto
 }
@@ -1485,9 +1494,9 @@ a,a:active,a:visited {
 }
 
 .ampstart-dropcap:first-letter {
-  color: #000;
+  color: #fff;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 400;
   float: left;
   overflow: hidden;
   line-height: 3rem;

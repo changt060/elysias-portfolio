@@ -40,6 +40,7 @@ limitations under the License.
 <script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script>
 <script custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js" async></script>
 <script custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js" async=""></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 
   <style amp-custom="">/*! Bassplate | MIT License | http://github.com/basscss/bassplate */
@@ -94,12 +95,6 @@ limitations under the License.
       <li class="ampstart-nav-item ">
         <a href="#interests" class="text-decoration-none block">Interests</a>
       </li>
-      <li class="ampstart-nav-item ">
-        <a href="#links" class="text-decoration-none block">Links</a>
-      </li>
-      <li class="ampstart-nav-item ">
-        <a href="#more" class="text-decoration-none block">More</a>
-      </li>
     </ul>
   </nav>
 </header>
@@ -110,10 +105,16 @@ limitations under the License.
     <figcaption class="absolute-left-right-center">
       <header amp-fx="parallax" data-parallax-factor="1.5" class="p3">
         <h1 class="ampstart-fullpage-hero-heading mb3">
-        <span class="ampstart-fullpage-hero-heading-text">
-          Elysia Chang
-        </span>
-      </h1>
+          <span class="ampstart-fullpage-hero-heading-text">Elysia Chang</span>
+        </h1>
+        <ul>
+          <li>
+            <a class="ampstart-readmoreTest" href="https://www.linkedin.com/in/elysia-chang-31a58319a"><i class="fab fa-linkedin" style="font-size:36px;color:white;"></i></a>
+            <a class="ampstart-readmoreTest" href="https://github.com/changt060"><i class="fab fa-github-square" style="font-size:36px;color:white;"></i></a>
+            <a class="ampstart-readmoreTest" href="mailto:changt060@gmail.com"><i class="far fa-envelope" style="font-size:36px;color:white;"></i></a>
+          </li>
+        </ul>
+
         <span class="ampstart-image-credit h4">
         By <a href="#" role="author" class="text-decoration-none">D.F. Roy</a>,<br> January 14, 2017
       </span>
@@ -123,40 +124,83 @@ limitations under the License.
       </footer>
     </figcaption>
   </figure>
-  <main id="about">
-    <h2 class="px3 pt2 mb2">About Me</h2>
-    <p class="ampstart-dropcap mb4 px3">Vivamus viverra augue libero, vitae dapibus lectus accumsan eget. Pellentesque eget ipsum purus. Maecenas leo odio, ornare nec ex id, suscipit porta ipsum. Ut fringilla semper cursus.</p>
-    <amp-img 
-      layout="responsive" width="1080" height="720"
-      srcset="https://unsplash.it/1080/720?image=1043 1080w, https://unsplash.it/720/480?image=1043 720w" 
-      alt="Photo of mountains and trees landscape">
-    </amp-img>
+  <section id="about">
+    <h2 class="px3 pt2 mb2 section-header">About Me</h2>
+    <p class="ampstart-dropcap mb4 px3">Hi! My name is Elysia. I live in Orange County but was originally from Taiwan. Currently, I am a junior at UCSD studying Computer Science. I have experience working with Java, C, C++, Node.js, Linux systems, and Azure. Some of the fields I am interested in going into include cloud computing, cybersecurity, or just backend development in general. Extracurricular-wise, I was involved in the Society of Women Engineers and Triton XR (UCSD’s virtual reality club) where I was both a Designer Officer and a project team member. Outside of academics, I am a person who enjoys playing badminton, listening to music, playing violin, and drawing (especially sketching). Also, I would describe myself as a huge sci-fi fan, because in my free time I love binge-watching sci-fi movies/TV shows and reading sci-fi novels. This past summer, I’ve had the opportunity to intern at a cloud based company as a software engineering intern where I gained a lot of professional knowledge in regards to working in the tech field. Right now, I am actively seeking new internship opportunities to gain more practical skills to complement my education and prepare for my future career.
+    </p>
 
-    <p class="my2 px3">Vivamus viverra augue libero, vitae dapibus lectus accumsan eget. Pellentesque eget ipsum purus. Maecenas leo odio, ornare nec ex id, suscipit porta ipsum. Ut fringilla semper cursus.</p>
+  </section>
+  <section id="resume">
+    <h2 class="px3 pt3 mb2 section-header">Resume</h2>
+    <h3 class="px3 pt2 mb2">Education</h3>
+    <h4 class="pt1 pl3"><span>University of California San Diego</span>
+      <span class="time-header col-right">Sep 2018 - June 2022</span>
+    </h4>
+    <h4><span class="time-header col-right">La Jolla, CA</span></h4>
+    <p class="px3 pt3 mb4">
+    Pursuing Bachelor of Science in Computer Science, GPA 3.85/4.00
+    </p>
+    <h3 class="px3 pt2 mb2">Work Experience</h3>
+    <h4 class="pt1 pl3"><span>YPCloud Inc | Software Engineering Intern</span>
+      <span class="time-header col-right">Jul 2022 - Sep 2022</span>
+    </h4>
+    <h4><span class="time-header col-right">Taipei, Taiwan</span></h4>
+    <p class="mb4 pt1 px3">
+      <ul>
+        <li>Designed and built Node.js applications with serverless architectures on Azure</li>
+        <li>Researched on the different tools and frameworks used in cloud computing</li>
+        <li>Helped with testing and validation whenever the company rolled out new designs on their cloud-based platforms</li>
+        <li>Worked with personnel to help the company migrate their digital assets and applications onto Azure</li>
+      </ul>
+    </p>
+    <h4 class="pt3 pl3"><span>Mathnasium | Math Instructor</span>
+      <span class="time-header col-right">Jan 2018 - Jun 2018</span>
+    </h4>
+    <h4><span class="time-header col-right">Rancho Santa Margarita, CA</span></h4>
+    <p class="mb4 pt1 px3">
+      <ul>
+        <li>Taught math and provided homework help to students (grade 1-12) both individually and in groups</li>
+      </ul>
+    </p>
+    <h3 class="px3 pt3 mb2">Skills</h3>
+    <p class="mb4 px3">
+      <ul>
+        <li>Java, C, C++, C#, Python, JavaScript, HTML, SQL</li>
+        <li>Azure, Node.js, AWS DynamoDB, Linux OS, Git</li>
+      </ul>
+    </p>
+  </section>
+  <section id="projects">
+    <h2 class="px3 pt3 mb2 section-header">Projects</h2>
+    <h3 class="px3 pt2 mb2">VeRFluent</h3>
+    <h4 class="pt1 pl3">Inspiration</h4>
+    <p class="mb4 pt1 px3">
+      We were thinking about how when studying abroad, you are able to learn the language faster because you are immersed in the environment. You are being forced to communicate with the locals and adapt to this new culture quickly. Using VR, we thought we could emulate this immersive study abroad experience. Now students would be able to experience the culture and gain that language fluency without worrying about the costly prices of airline tickets and living expenses.
+    </p>
+    <h4 class="pt1 pl3">What It Does</h4>
+    <p class="mb4 pt1 px3">
+      VeRFluent puts the user into situations with objectives to complete, which aim to help the user improve his/her speaking and listening skills. Right now, our app supports Mandarin. The game simulates a short scenario of one eating at a Taiwanese host's house. The user will practice conversational phrases and vocabularies and learn the proper dinning etiquette.
+    </p>
+    <h4 class="pt1 pl3">Built With</h4>
+    <p class="mb4 pt1 px3">Unity 3D, C#, and Blender.</p>
 
     <amp-carousel [slide]="selectedSlide" on="slideChange:AMP.setState({selectedSlide:event.index})" type="slides" id="imageSlides" layout="responsive" width="1080" height="720">
-      <amp-img src="https://unsplash.it/1080/720?image=1037" layout="fill"></amp-img>
-      <amp-img src="https://unsplash.it/1080/720?image=1038" layout="fill"></amp-img>
-      <amp-img src="https://unsplash.it/1080/720?image=1039" layout="fill"></amp-img>
-      <amp-img src="https://unsplash.it/1080/720?image=1040" layout="fill"></amp-img>
-      <amp-img src="https://unsplash.it/1080/720?image=1041" layout="fill"></amp-img>
-      <amp-img src="https://unsplash.it/1080/720?image=1042" layout="fill"></amp-img>
-      <amp-img src="https://unsplash.it/1080/720?image=1043" layout="fill"></amp-img>
-      <amp-img src="https://unsplash.it/1080/720?image=1044" layout="fill"></amp-img>
+      <amp-img src="./img/article/VeRFluent1.png" layout="fill"></amp-img>
+      <amp-img src="./img/article/VeRFluent2.png" layout="fill"></amp-img>
+      <amp-img src="./img/article/VeRFluent3.png" layout="fill"></amp-img>
+      <amp-img src="./img/article/VeRFluent4.png" layout="fill"></amp-img>
+
     </amp-carousel>
 
     <amp-selector [selected]="selectedSlide" on="select:AMP.setState({selectedSlide:event.targetOption})">
       <amp-carousel layout="fixed-height" height="78" class="mt1">
-        <amp-img option=0 selected src="https://unsplash.it/108/72?image=1037" layout="fixed" width="108" height="72"></amp-img>
-        <amp-img option=1 src="https://unsplash.it/108/72?image=1038" layout="fixed" width="108" height="72"></amp-img>
-        <amp-img option=2 src="https://unsplash.it/108/72?image=1039" layout="fixed" width="108" height="72"></amp-img>
-        <amp-img option=3 src="https://unsplash.it/108/72?image=1040" layout="fixed" width="108" height="72"></amp-img>
-        <amp-img option=4 src="https://unsplash.it/108/72?image=1041" layout="fixed" width="108" height="72"></amp-img>
-        <amp-img option=5 src="https://unsplash.it/108/72?image=1042" layout="fixed" width="108" height="72"></amp-img>
-        <amp-img option=6 src="https://unsplash.it/108/72?image=1043" layout="fixed" width="108" height="72"></amp-img>
-        <amp-img option=7 src="https://unsplash.it/108/72?image=1044" layout="fixed" width="108" height="72"></amp-img>
+        <amp-img option=0 selected src="./img/article/VeRFluent1.png" layout="fixed" width="108" height="72"></amp-img>
+        <amp-img option=1 src="./img/article/VeRFluent2.png" layout="fixed" width="108" height="72"></amp-img>
+        <amp-img option=2 src="./img/article/VeRFluent3.png" layout="fixed" width="108" height="72"></amp-img>
+        <amp-img option=3 src="./img/article/VeRFluent4.png" layout="fixed" width="108" height="72"></amp-img>
       </amp-carousel>
     </amp-selector>
-  </main>
+
+  </section>
 </body>
 </html>
