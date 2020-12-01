@@ -122,14 +122,16 @@ limitations under the License.
     </figcaption>
   </figure>
   <section id="about">
-    <h2 class="px3 pt2 mb2 section-header">About Me</h2>
+    <br><br>
+    <h2 class="px3 pt2 mb4 section-header">About Me</h2>
     <p class="ampstart-dropcap mb4 px3">Hi! My name is Elysia. I live in Orange County but was originally from Taiwan. Currently, I am a junior at UCSD studying Computer Science. I have experience working with Java, C, C++, Node.js, Linux systems, and Azure. Some of the fields I am interested in going into include cloud computing, cybersecurity, or just backend development in general. Extracurricular-wise, I was involved in the Society of Women Engineers and Triton XR (UCSD’s virtual reality club) where I was both a Designer Officer and a project team member. Outside of academics, I am a person who enjoys playing badminton, listening to music, playing violin, and drawing (especially sketching). Also, I would describe myself as a huge sci-fi fan, because in my free time I love binge-watching sci-fi movies/TV shows and reading sci-fi novels. This past summer, I’ve had the opportunity to intern at a cloud based company as a software engineering intern where I gained a lot of professional knowledge in regards to working in the tech field. Right now, I am actively seeking new internship opportunities to gain more practical skills to complement my education and prepare for my future career.
     </p>
 
   </section>
   <section id="resume">
-    <h2 class="px3 pt3 mb2 section-header">Resume</h2>
-    <h3 class="px3 pt2 mb2">Education</h3>
+    <br><br>
+    <h2 class="px3 pt2 mb2 section-header">Resume</h2>
+    <h3 class="px3 pt2 mb2 theme2-divider">Education</h3>
     <h4 class="pt1 pl3"><span>University of California San Diego</span>
       <span class="time-header col-right">Sep 2018 - June 2022</span>
     </h4>
@@ -137,7 +139,7 @@ limitations under the License.
     <p class="px3 pt3 mb4">
     Pursuing Bachelor of Science in Computer Science, GPA 3.85/4.00
     </p>
-    <h3 class="px3 pt2 mb2">Work Experience</h3>
+    <h3 class="px3 pt2 mb2 theme2-divider">Work Experience</h3>
     <h4 class="pt1 pl3"><span>YPCloud Inc | Software Engineering Intern</span>
       <span class="time-header col-right">Jul 2022 - Sep 2022</span>
     </h4>
@@ -159,16 +161,34 @@ limitations under the License.
         <li>Taught math and provided homework help to students (grade 1-12) both individually and in groups</li>
       </ul>
     </p>
-    <h3 class="px3 pt3 mb2">Skills</h3>
+    <h3 class="px3 pt4 mb2 theme2-divider">Activities</h3>
+    <h4 class="pt4 pl3"><span>UCSD Triton XR (Virtual Reality Club) |</span>
+      <span class="time-header col-right">2018 - 2020</span>
+      <span>Designer Officer & Project Team Member</span>
+    </h4>
+    <p class="mb4 pt1 px3">
+      <ul>
+        <li>On a project team called Nutrition XR where our goal is to create VR games to educate users about nutrition and meal planning</li>
+        <li>Worked on graphic design requests such as the club logo, event banners, posters, flyers, and Facebook covers</li>
+      </ul>
+    </p>
+    <h4 class="pt3 pl3"><span>UCSD Society of Women Engineers | Member</span>
+      <span class="time-header col-right">2018 - 2020</span>
+    </h4>
+    <h4 class="pt3 pl3"><span>UCSD Women In Computing | Member</span>
+      <span class="time-header col-right">2018</span>
+    </h4>
+    <h3 class="px3 pt5 mb2 theme2-divider">Skills</h3>
     <p class="mb4 px3">
       <ul>
         <li>Java, C, C++, C#, Python, JavaScript, HTML, SQL</li>
-        <li>Azure, Node.js, AWS DynamoDB, Linux OS, Git</li>
+        <li>Azure, Node.js, Linux OS, Git</li>
       </ul>
     </p>
   </section>
   <section id="projects">
-    <h2 class="px3 pt3 mb2 section-header">Projects</h2>
+    <br><br>
+    <h2 class="px3 pt2 mb2 section-header">Projects</h2>
     <h3 class="px3 pt2 mb2">VeRFluent</h3>
     <h4 class="pt1 pl3">Inspiration</h4>
     <p class="mb4 pt1 px3">
@@ -181,15 +201,14 @@ limitations under the License.
     <h4 class="pt1 pl3">Built With</h4>
     <p class="mb4 pt1 px3">Unity 3D, C#, and Blender.</p>
 
-    <amp-carousel [slide]="selectedSlide" on="slideChange:AMP.setState({selectedSlide:event.index})" type="slides" id="imageSlides" layout="responsive" width="1080" height="720">
+    <amp-carousel [slide]="selectedSlideVRF" on="slideChange:AMP.setState({selectedSlideVRF:event.index})" type="slides" id="imageSlides" layout="responsive" width="675" height="450">
       <amp-img src="./img/article/VeRFluent1.png" layout="fill"></amp-img>
       <amp-img src="./img/article/VeRFluent2.png" layout="fill"></amp-img>
       <amp-img src="./img/article/VeRFluent3.png" layout="fill"></amp-img>
       <amp-img src="./img/article/VeRFluent4.png" layout="fill"></amp-img>
-
     </amp-carousel>
 
-    <amp-selector [selected]="selectedSlide" on="select:AMP.setState({selectedSlide:event.targetOption})">
+    <amp-selector [selected]="selectedSlideVRF" on="select:AMP.setState({selectedSlideVRF:event.targetOption})">
       <amp-carousel layout="fixed-height" height="78" class="mt1">
         <amp-img option=0 selected src="./img/article/VeRFluent1.png" layout="fixed" width="108" height="72"></amp-img>
         <amp-img option=1 src="./img/article/VeRFluent2.png" layout="fixed" width="108" height="72"></amp-img>
@@ -197,7 +216,56 @@ limitations under the License.
         <amp-img option=3 src="./img/article/VeRFluent4.png" layout="fixed" width="108" height="72"></amp-img>
       </amp-carousel>
     </amp-selector>
+    <h3 class="px3 pt5 mb2">Telegram Bots</h3>
+    <h4 class="pt1 pl3">What it is</h4>
+    <p class="mb4 pt1 px3">
+      Interactive bots offering various functionalities such as text-to-speech conversion, optical character 
+      recognition, language translation, and news articles scraping.
+    </p>
+    <h4 class="pt1 pl3">Built With</h4>
+    <p class="mb4 pt1 px3">Node.js and Azure.</p>
+
+    <amp-carousel [slide]="selectedSlideTB" on="slideChange:AMP.setState({selectedSlideTB:event.index})" type="slides" id="imageSlides" layout="responsive" width="675" height="450">
+      <amp-img src="./img/article/TelegramBots1.jpg" layout="fill"></amp-img>
+      <amp-img src="./img/article/TelegramBots2.jpg" layout="fill"></amp-img>
+      <amp-img src="./img/article/TelegramBots3.jpg" layout="fill"></amp-img>
+      <amp-img src="./img/article/TelegramBots4.jpg" layout="fill"></amp-img>
+    </amp-carousel>
+
+    <amp-selector [selected]="selectedSlideTB" on="select:AMP.setState({selectedSlideTB:event.targetOption})">
+      <amp-carousel layout="fixed-height" height="78" class="mt1">
+        <amp-img option=0 selected src="./img/article/TelegramBots1.jpg" layout="fixed" width="108" height="72"></amp-img>
+        <amp-img option=1 src="./img/article/TelegramBots2.jpg" layout="fixed" width="108" height="72"></amp-img>
+        <amp-img option=2 src="./img/article/TelegramBots3.jpg" layout="fixed" width="108" height="72"></amp-img>
+        <amp-img option=3 src="./img/article/TelegramBots4.jpg" layout="fixed" width="108" height="72"></amp-img>
+      </amp-carousel>
+    </amp-selector>    
+
+    <h3 class="px3 pt5 mb2">Rainbow Snake Game</h3>
+    <h4 class="pt1 pl3">What it is</h4>
+    <p class="mb4 pt1 px3">
+      An imitation of the classic game Snake. Only this time, the snake gets to eat fruit loops and grow in rainbow colors!
+    </p>
+    <h4 class="pt1 pl3">Built With</h4>
+    <p class="mb4 pt1 px3">Java GUI.</p>
+
+    <amp-carousel [slide]="selectedSlideSN" on="slideChange:AMP.setState({selectedSlideSN:event.index})" type="slides" id="imageSlides" layout="responsive" width="675" height="450">
+      <amp-img src="./img/article/SnakeGame1.png" layout="fill"></amp-img>
+      <amp-img src="./img/article/SnakeGame2.png" layout="fill"></amp-img>
+      <amp-img src="./img/article/SnakeGame3.png" layout="fill"></amp-img>
+      <amp-img src="./img/article/SnakeGame4.png" layout="fill"></amp-img>
+    </amp-carousel>
+
+    <amp-selector [selected]="selectedSlideSN" on="select:AMP.setState({selectedSlideSN:event.targetOption})">
+      <amp-carousel layout="fixed-height" height="78" class="mt1">
+        <amp-img option=0 selected src="./img/article/SnakeGame1.png" layout="fixed" width="108" height="72"></amp-img>
+        <amp-img option=1 src="./img/article/SnakeGame2.png" layout="fixed" width="108" height="72"></amp-img>
+        <amp-img option=2 src="./img/article/SnakeGame3.png" layout="fixed" width="108" height="72"></amp-img>
+        <amp-img option=3 src="./img/article/SnakeGame4.png" layout="fixed" width="108" height="72"></amp-img>
+      </amp-carousel>
+    </amp-selector>
 
   </section>
+  <br>
 </body>
 </html>

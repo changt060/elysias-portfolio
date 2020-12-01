@@ -245,6 +245,19 @@ canvas {
   line-height: 1.5rem
 }
 
+.theme2-divider:after {
+  border-bottom: 1px solid #fff;
+  content: "";
+  display: block;
+  height: 1rem;
+  width: 8.33%
+}
+
+/* Dotted border */
+hr.dotted {
+  border-top: 3px dotted #bbb;
+}
+
 .bold {
   font-weight: 700
 }
@@ -754,6 +767,10 @@ canvas {
   padding-right: 2rem
 }
 
+.pt5 {
+  padding-top: 2.5rem
+}
+
 .col {
   float: left
 }
@@ -1056,7 +1073,8 @@ canvas {
 }
 
 .section-header {
-  font-weight: 500
+  font-weight: 500;
+  color: #DFFFDC;
 }
 
 .self-start {
@@ -1437,7 +1455,7 @@ p {
 }
 
 .h2,h2 {
-  font-size: 2rem;
+  font-size: 2.3rem;
   line-height: 2.5rem
 }
 
